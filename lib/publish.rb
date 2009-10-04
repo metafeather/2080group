@@ -1,3 +1,10 @@
+output_location = "./../_site"
+
+desc 'Develop the website'
+task "dev" do
+  sh "cd ./website/ && jekyll #{output_location}"
+end
+
 # Github requires the documentation to be in a special branch called 'gh-pages'
 # ref: http://judofyr.net/posts/copy-folders-to-a-branch.html    
 desc 'Publish the website to Github'
