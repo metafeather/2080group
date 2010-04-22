@@ -1,4 +1,4 @@
-output_location = "./../_site"
+output_location = "_site"
 
 desc 'Develop the website'
 task "dev" do
