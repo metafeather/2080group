@@ -1,4 +1,4 @@
-auto: true # false
+#auto: false # use -watch
 # server: true
 # server_port: 4000
 # destination: ./_site
